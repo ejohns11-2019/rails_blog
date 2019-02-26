@@ -1,0 +1,14 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+# gem "rails"
+
+gem 'rspec' #allows testing code to test programs - testing library
+gem 'rake' #allows to run testing library
+gem 'pry'
+
+#now bundle install in terminal
+#in rakefile require 'rspec/core/rake_test' - this is in documentation for the gem
